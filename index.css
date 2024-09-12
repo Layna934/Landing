@@ -262,13 +262,13 @@ body.weatherpage {
 }
 
 @media screen and (max-width: 768px) {
-    .hourly-forecast {
+    .hourly-forecast, .weekly-forecast {
         display: flex;
         flex-wrap: wrap;
         padding: 10px 0;
     }
 
-    .hourly-forecast .hour {
+    .hourly-forecast .hour, .weekly-forecast .day {
         width: 50%;
         margin: 10px;
     }
@@ -279,13 +279,13 @@ body.weatherpage {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
-    .hourly-forecast {
+    .hourly-forecast, .weekly-forecast {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .hourly-forecast .hour {
+    .hourly-forecast .hour, .weekly-forecast .day {
         width: 45%;
         margin: 10px;
     }
@@ -296,12 +296,12 @@ body.weatherpage {
 }
 
 @media screen and (min-width: 1024px) {
-    .hourly-forecast {
+    .hourly-forecast, .weekly-forecast {
         display: flex;
         justify-content: space-between;
     }
 
-    .hourly-forecast .hour {
+    .hourly-forecast .hour, .weekly-forecast .day {
         width: 20%;
         margin: 10px;
     }
