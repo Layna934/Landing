@@ -298,7 +298,6 @@ body.weatherpage {
 @media screen and (min-width: 1024px) {
     .hourly-forecast {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
 
