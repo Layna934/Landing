@@ -162,7 +162,7 @@ body.weatherpage {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    width: 90%;
+    width: 70vw;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -264,16 +264,17 @@ body.weatherpage {
 @media screen and (max-width: 768px) {
     .hourly-forecast {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        overflow-x: auto;
+        flex-wrap: wrap;
         padding: 10px 0;
     }
 
     .hourly-forecast .hour {
-        flex: 0 0 auto;
-        margin-right: 10px;
-        width: 120px;
+        width: 50%;
+        margin: 10px;
+    }
+
+    .card {
+        width: 50%;
     }
 }
 
